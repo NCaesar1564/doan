@@ -1,0 +1,23 @@
+#Account {
+    background-image: url(../Data/Image/image.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Account-button {
+    height: 20vh;
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.Account-Offer{
+    padding-bottom: 50px;
+}
+.Account-button button{
+    height: 30px;
+    width: 100px;
+}
+.login-register-button:focus{
+    background-color: lightgray;
+}

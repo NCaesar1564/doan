@@ -1,0 +1,27 @@
+#AccountManager{
+    height: 100vh;
+    width: 100%;
+}
+.adminaccount-manager{
+    height: 100vh;
+    width: 100%;
+    font-size: large;
+}
+.admin-account-boder{
+    width: 100%;
+    max-height: calc(100vh - 37.6px);
+    overflow: auto;
+}
+.head-user-boder{
+    height: 10vh;
+    background-color: lightgray;
+}
+.body-user-boder tr{
+    height: 5vh;
+} 
+.delete-account{
+    cursor: pointer;
+    background-color: red;
+    height: 4vh;
+    width: 80px;
+}

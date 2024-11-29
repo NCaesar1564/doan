@@ -1,0 +1,38 @@
+#CartManager{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.CartManager{
+    max-height: 100vh;
+    width: 100%;
+    overflow-y: auto;
+}
+.admincart-border{
+    width: 100%;
+    height: calc(100vh - 58.6px);
+}
+.admincart-head-border{
+    height: 10vh;
+    background-color: lightgray;
+}
+.admincart-client-name{
+    width: 20%;
+}
+.admincart-client-phone{
+    width: 20%;
+}
+.admincart-note{
+    width: 20%;
+}
+.admincart-total{
+    width: 20%;
+}
+.admincart-cart-detail{
+    width: 10%;
+}
+.admincart-cart-detail-content{
+    display: flex;
+    justify-content: center;
+}

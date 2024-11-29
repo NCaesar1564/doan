@@ -1,0 +1,58 @@
+#Brand{
+    height: 100vh;
+    width: 100%;
+}
+.border-brand-admin{
+    min-height: calc(100vh - 37.6px);
+    overflow: auto;
+}
+.edit-brand-button-admin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head-list-brand{
+    height: 10vh;
+    background-color: lightgray;
+}
+.body-list-brand img{
+    width: 40%;
+}
+.delete-brand-admin{
+    border-radius: 3px;    
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    align-items: center;
+    width: 50%;
+    background-color: red;
+    border: 1px solid;
+    cursor: pointer;
+}
+.edit-brand-admin{
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    align-items: center;
+    width: 50%;
+    background-color: #98FB98;
+    border: 1px solid;
+    cursor: pointer;
+}
+.logo-brand-column{
+    height: 10vh;
+    width: 30%;
+}
+.name-brand-colum{
+    height: 10vh;
+    width: 30%;
+}
+.quantity-product-brand-colum{
+    height: 10vh;
+    width: 20%;
+}
+.edit-brand-colum{
+    height: 10vh;
+    width: 20%;
+}

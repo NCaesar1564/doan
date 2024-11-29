@@ -1,0 +1,93 @@
+#ProductAdmin{
+    width: 100%;
+}
+.border-product-admin{
+    width: 100%;
+    min-height: calc(100vh - 20px - 37.6px);
+}
+.ProductAdmin{
+    width: 100%;
+    overflow-y: auto;
+    max-height: 100vh;
+}
+.body-boder-product-admin td{
+    height: 20vh;
+}
+.body-boder-product-admin tr img{
+    max-height: 18vh;
+}
+.edit-product-admin{
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    align-items: center;
+    width: 50%;
+    background-color: #98FB98;
+    border: 1px solid;
+    cursor: pointer;
+}
+.delete-product-admin{
+    border-radius: 3px;    
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    align-items: center;
+    width: 50%;
+    background-color: red;
+    border: 1px solid;
+    cursor: pointer;
+}
+.edit-product-admin:hover{
+    background-color: lightgreen;
+}
+.delete-product-admin:hover{
+    background-color: #CD5C5C;
+}
+.edit-product-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.space{
+    visibility: hidden;
+    border: none;
+
+}
+.Title-admin{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.button-confirm-delete .delete{
+    background-color: red;
+    cursor: pointer;
+}
+.button-confirm-delete .no-delete{
+    background-color: lightgreen;
+    cursor: pointer;
+}
+.confirm-delete {
+    position: fixed;
+    border: 1px solid;
+    height: 30vh;
+    width: 40%;
+    left: 30%;
+    top: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+
+.button-confirm-delete {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.button-confirm-delete button {
+    height: 50px;
+    width: 80px;
+}
